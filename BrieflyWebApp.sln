@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3188DCB2-D824-4CB9-A6EA-304F1498BF10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9B6FBCF9-6FD2-46DD-A08D-32F4DC8724F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6D05A336-153F-4A8D-A3B6-B0DA54DB656B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{BC0486CB-A7FD-47E4-BA1F-645C0043F3A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{F9B6DF39-1856-4AB8-88A7-8EB450506244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Briefly.Web", "Web\Briefly.Web\Briefly.Web.csproj", "{C3CA356E-F673-4F46-9FDA-5B44E12343A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Briefly.Data", "Data\Briefly.Data\Briefly.Data.csproj", "{D8D7699F-CB06-4C9D-99FD-6CF7C235090E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Briefly.Models", "Data\Briefly.Models\Briefly.Models.csproj", "{CC83134C-1B7D-4472-9BA9-C3415BF820BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3CA356E-F673-4F46-9FDA-5B44E12343A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CA356E-F673-4F46-9FDA-5B44E12343A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CA356E-F673-4F46-9FDA-5B44E12343A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CA356E-F673-4F46-9FDA-5B44E12343A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D7699F-CB06-4C9D-99FD-6CF7C235090E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D7699F-CB06-4C9D-99FD-6CF7C235090E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D7699F-CB06-4C9D-99FD-6CF7C235090E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D7699F-CB06-4C9D-99FD-6CF7C235090E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC83134C-1B7D-4472-9BA9-C3415BF820BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC83134C-1B7D-4472-9BA9-C3415BF820BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC83134C-1B7D-4472-9BA9-C3415BF820BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC83134C-1B7D-4472-9BA9-C3415BF820BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3CA356E-F673-4F46-9FDA-5B44E12343A8} = {BC0486CB-A7FD-47E4-BA1F-645C0043F3A2}
+		{D8D7699F-CB06-4C9D-99FD-6CF7C235090E} = {6D05A336-153F-4A8D-A3B6-B0DA54DB656B}
+		{CC83134C-1B7D-4472-9BA9-C3415BF820BA} = {6D05A336-153F-4A8D-A3B6-B0DA54DB656B}
+	EndGlobalSection
+EndGlobal
