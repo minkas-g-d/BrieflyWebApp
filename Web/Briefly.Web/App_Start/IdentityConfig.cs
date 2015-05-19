@@ -11,8 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Briefly.Web.Models;
-using Briefly.Models;
 using Briefly.Data;
+using Briefly.Models;
 
 namespace Briefly.Web
 {
@@ -55,11 +55,11 @@ namespace Briefly.Web
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
-                RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
-                RequireLowercase = true,
-                RequireUppercase = true,
+                RequiredLength = 1,//mido: set from 6 to 1 for dev aims
+                RequireNonLetterOrDigit = false,//mido: set to false for dev aims
+                RequireDigit = false,//mido: set to false for dev aims
+                RequireLowercase = false,//mido: set to false for dev aims
+                RequireUppercase = false,//mido: set to false for dev aims
             };
 
             // Configure user lockout defaults
