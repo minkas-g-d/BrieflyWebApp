@@ -3,16 +3,16 @@
     using Briefly.Models;
     using Microsoft.AspNet.Identity.EntityFramework;
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class BrieflyContext : IdentityDbContext<User>
     {
-        public ApplicationDbContext()
+        public BrieflyContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
 
-        public static ApplicationDbContext Create()
+        public static BrieflyContext Create()
         {
-            return new ApplicationDbContext();
+            return new BrieflyContext();
         }
     }
 }
